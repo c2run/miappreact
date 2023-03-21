@@ -12,7 +12,7 @@ export default function Welcome(props){
     const contar = () => {
         //console.log("Entrando en la función de contar");
         setCounter(counter + 1);
-        setSemaforo(!semaforo)
+        setSemaforo(!semaforo);
     };
 
 return (
@@ -21,6 +21,7 @@ return (
     <p>{message}</p>
     <h2>Contador de React con Hooks</h2>
     <h4>El número del contador es {counter}</h4>
+    <p>El semáforo está en color {semaforo ? "verde" : "rojo"}</p>
     <button type="submit" onClick={contar}>Sumar</button>
 </div>
 );
