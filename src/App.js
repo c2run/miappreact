@@ -21,10 +21,14 @@ function App() {
             <li>
               <Link to="/contact">Contacto</Link>
             </li>
+            <li>
+              <Link to="/about-me">About me</Link>
+            </li>
           </ul>
         </div>
          <Routes>
           <Route path="/contact" element={<Contact />} />
+          <Route path="/about-me" element={<about-me />} />
         </Routes>
        </Router>
       </header>
