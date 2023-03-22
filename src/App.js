@@ -3,7 +3,7 @@ import './App.css';
 import Welcome from './components/Welcome';
 import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 import  Contact from "./pages/Contact"; 
-
+import Aboutme from "./pages/AboutMe";
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
         </div>
          <Routes>
           <Route path="/contact" element={<Contact />} />
-          <Route path="/about-me" element={<about-me />} />
+          <Route path="/about-Me" element={<Aboutme />} />
         </Routes>
        </Router>
       </header>
